@@ -12,7 +12,7 @@ const HomeStackRoute = () => {
       <Stack.Screen
         name="Initial"
         component={Initial}
-        options={{ cardStyle: style.initialScreen, headerShown: true }}
+        options={{ cardStyle: style.initialScreen, headerShown: false }}
       />
       <Stack.Screen
         name="TabScreen"
