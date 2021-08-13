@@ -8,7 +8,7 @@ const Tab = createBottomTabNavigator();
 
 const icons = {
   Home: { name: "home" },
-  About: { name: "groups" },
+  Sobre: { name: "groups" },
 };
 
 const TabRoute = () => {
@@ -36,7 +36,7 @@ const TabRoute = () => {
         }}
       />
       <Tab.Screen
-        name="About"
+        name="Sobre"
         component={About}
         options={{
           unmountOnBlur: true,
