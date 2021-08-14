@@ -7,7 +7,7 @@ import HomeStackRoute from "./src/routes/stackRoutes/HomeStackRoute";
 export default function App() {
   return (
     <NavigationContainer>
-      <StatusBar barStyle="light-content" backgroundColor="#081a31" />
+      <StatusBar barStyle="light-content" backgroundColor="#FFFFFF" />
       <HomeStackRoute />
     </NavigationContainer>
   );

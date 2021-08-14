@@ -1,7 +1,25 @@
 import React from "react";
 import { View, Text, SafeAreaView, ScrollView, Image } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { MaterialIcons } from "@expo/vector-icons";
 import style from "./style";
+
+function VECEP_MEANING() {
+  return (
+    <Text style={{ fontWeight: "bold" }}>
+      Venha Estudar Conteúdos Específicos Para
+    </Text>
+  );
+}
+
+function FeatureList({ item }) {
+  return (
+    <View style={style.list}>
+      <MaterialIcons name="check" size={17} color="#48A7FF" />
+      <Text style={style.listText}>{item}</Text>
+    </View>
+  );
+}
 
 function Home() {
   return (
@@ -20,13 +38,9 @@ function Home() {
             </Text>
 
             <Text style={[style.description, { color: "white" }]}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Sigla de {VECEP_MEANING()} [insira aqui uma prova de vestibular],
+              estamos abraçando, nesse primeiro momento, a prova da USP, a
+              Fuvest.
             </Text>
           </View>
         </LinearGradient>
@@ -53,19 +67,10 @@ function Home() {
           <View style={style.text}>
             <Text style={style.title}>Um pouco sobre nossas features...</Text>
 
-            <Text style={style.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </Text>
-
-            <Text style={style.description}>
-              Duis aute irure dolor inreprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </Text>
+            <FeatureList item="Provas na íntegra desde 2010." />
+            <FeatureList item="Filtragem por matérias e (((PASMEM))) por conteúdos das mesmas!" />
+            <FeatureList item="Simulação de provas com tempo..." />
+            <FeatureList item="Análise de performance individual." />
           </View>
         </LinearGradient>
       </ScrollView>

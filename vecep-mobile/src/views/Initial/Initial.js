@@ -27,13 +27,14 @@ function Initial({ navigation }) {
             <Text style={style.title}>VECEP - Fuvest</Text>
 
             <Text style={style.description}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Oiee!{"\n\n"}
+              Somos uma ferramenta que auxilia você, vestibulando da Fuvest, a
+              colocar em prática seus conteúdos estudados, por meio de questões
+              específicas.
+              {"\n\n"}
+              Nossa missão é facilitar ao máximo sua jornada em direção à
+              aprovação! Aqui, você pode encontrar tudo relacionado às provas da
+              USP, desde 2010.
             </Text>
           </View>
           <WaveView

@@ -19,7 +19,7 @@ const TabRoute = () => {
           const { name } = icons[route.name];
           return <MaterialIcons name={name} size={30} color={color} />;
         },
-        tabBarActiveTintColor: "#E1306C",
+        tabBarActiveTintColor: "#35C1E8",
         tabBarShowLabel: false,
         tabBarStyle: [
           {

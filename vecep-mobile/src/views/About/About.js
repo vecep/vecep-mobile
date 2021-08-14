@@ -43,15 +43,14 @@ function About() {
             picture={HIRASAWA_PICTURE}
             name="Raphaella Hirasawa"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Estudante de Desenvolvimento de Sistemas pela ETEC de Hortolândia e
+            leitora nas horas vagas. Quero seguir carreira na área de Relações
+            Internacionais.
           </RenderGroupMembers>
 
           <RenderGroupMembers picture={YODONO_PICTURE} name="Victor Yodono">
-            Programador por paixão, guitarrista por hobby e gamer nas horas
-            vagas. Gosto de me aventurar no mundo dos códigos, com foco
+            Programador por paixão, guitarrista por hobby e gamer no meu tempo
+            livre. Gosto de me aventurar no mundo dos códigos, com foco
             principal em Web Development. Estudante de React, Node, TypeScript,
             Java e afins.
           </RenderGroupMembers>

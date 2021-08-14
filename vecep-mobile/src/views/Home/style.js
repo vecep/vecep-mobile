@@ -5,22 +5,15 @@ const style = StyleSheet.create({
     flex: 1,
   },
 
-  background: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
   scrollView: {
     backgroundColor: "#081a31",
     flexDirection: "column",
   },
 
-  title: {
-    marginBottom: 20,
-    fontSize: 25,
-    fontWeight: "bold",
-    color: "#1B4469",
+  background: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   text: {
@@ -30,6 +23,29 @@ const style = StyleSheet.create({
     paddingHorizontal: 50,
     marginTop: 20,
     marginBottom: 40,
+  },
+
+  title: {
+    marginBottom: 20,
+    fontSize: 25,
+    fontWeight: "bold",
+    color: "#1B4469",
+  },
+
+  description: {
+    fontSize: 17,
+  },
+
+  list: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  listText: {
+    fontSize: 17,
+    marginLeft: 10,
+    marginBottom: 10,
   },
 
   statistics: {
